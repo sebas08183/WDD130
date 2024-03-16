@@ -1,0 +1,105 @@
+@import url(https://fonts.google.com/noto/specimen/Noto+Serif?query=noto);
+@import url(https://fonts.google.com/specimen/Bree+https://fonts.google.com/specimen/Bree+Serif?query=bree&noto.query=bree+serif?query=serif);
+
+
+
+:root {
+    --primary-color: #66a557;
+    --secondary-color: #414073;
+    --accent1-color: #F5FFC6; 
+    --accent2-color: #8499B1;
+
+    --heading-font: 'noto', serif;
+    --paragraph-font: 'bree', serif;
+
+    --hero-background-color: #F5FFC6;
+    --hero-link-color: #414073;
+    --hero-hover-link-color: #414073;
+    --hero-hover-background-color: #8499B1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.social_links {
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1200px; 
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img  {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+    background-color: var(--hero-hover-background-color);
+    color: var(--accent1-color);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.hero article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--hero-hover-background-color);
+    padding: 20px;
+    color: var(--accent1-color);
+    opacity: 0.8;
+}
+
+.hero article p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 50%;
+    text-align: left;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20%;
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+        
+        
