@@ -36,7 +36,6 @@ body {
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 .hero {
@@ -48,14 +47,13 @@ body {
 .hero img  {
     display: block;
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 .hero h1 {
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 27%;
     transform: translate(-20%, -20%);
     background-color: var(--hero-hover-background-color);
     color: var(--accent1-color);
@@ -63,31 +61,32 @@ body {
     width: 80%;
     max-width: 600px;
     overflow: hidden;
+    opacity: 0.9;
 }
 
 .hero article {
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 28%;
+    transform: translate(-20%, -20%);
     background-color: var(--hero-hover-background-color);
-    padding: 20px;
+    padding: 5px;
     color: var(--accent1-color);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .hero article p {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     overflow: hidden;
-    width: 50%;
+    width: 65%;
     text-align: left;
 }
 
 .hero article img {
     float: right;
     margin-left: 20%;
-    width: 50%;
+    width: 30%;
     height: auto;
 }
 
