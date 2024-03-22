@@ -41,8 +41,9 @@ main img{
     margin: 0 0 1rem 1rem;
 }
 
-p{
+main p{ 
     margin: 1rem;
+    width: 30rem;
     
 }
 
