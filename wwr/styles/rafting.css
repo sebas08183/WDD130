@@ -25,8 +25,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav a {
-    text-decoration: none;
-    display: flex;
+    display: grid;
+    text-align: justify;   
+    text-decoration: none; 
+    position: relative;
 }
 
 body {
@@ -43,6 +45,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
+    
 }
 
 .hero img  {
@@ -54,7 +57,7 @@ body {
 .hero h1 {
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 27%;
     transform: translate(-20%, -20%);
     background-color: var(--hero-hover-background-color);
     color: var(--accent1-color);
@@ -67,7 +70,7 @@ body {
 
 .hero article {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 28%;
     transform: translate(-20%, -20%);
     background-color: var(--hero-hover-background-color);
@@ -77,10 +80,10 @@ body {
 }
 
 .hero article p {
-    margin-top: 0;
+    margin-top: 1px;
     margin-bottom: 40px;
     overflow: hidden;
-    width: 65%;
+    width: 50%;
     text-align: left;
 }
 
@@ -91,18 +94,22 @@ body {
     height: auto;
 }
 
-/* Header styles */
 header {
-    background-color: var(--primary-color);
+    display: grid;
+    background-color: var(--accent2-color);
     color: white;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    grid-template-columns: 1800px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .header, .grid {
     display: grid;
-    grid-template-columns: auto 1fr; 
+    grid-template-columns: minmax(auto, 600px ) 1fr;
     align-items: center; 
+    justify-content: space-between;
 }
 
 .grid img {
@@ -110,9 +117,10 @@ header {
 }
 
 .nav {
-    display: flex;
-    justify-content: space-around; 
+    display: flex;justify-content: space-evenly;
+    justify-content: center; 
     align-items: center; 
+    width: 100%;
 }
 
 
@@ -125,6 +133,7 @@ section h2 {
     color: var(--secondary-color);
     font-size: 24px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 section p {
@@ -133,7 +142,6 @@ section p {
     line-height: 1.5;
 }
 
-/* Adventures section styles */
 .adventures {
     padding: 20px;
     margin-top: 20px;
@@ -143,6 +151,7 @@ section p {
     color: var(--secondary-color);
     font-size: 24px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .image-container {
@@ -156,7 +165,7 @@ figure {
 
 img {
     max-width: 100%; 
-    height: auto; 
+    height: 80%; 
 }
 
 figcaption {
@@ -165,23 +174,19 @@ figcaption {
     font-style: var(--paragraph-font);
 }
 
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
 
+.social_links {
+    display: flex;
+}
 
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-        
-        
+.social_links a {
+    margin-left: 10px; 
+}
