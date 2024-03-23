@@ -96,7 +96,7 @@ header {
     background-color: var(--primary-color);
     color: white;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .header, .grid {
@@ -160,11 +160,7 @@ img {
     height: auto; 
 }
 
-figcaption {
-    text-align: center;
-    margin-top: 5px;
-    font-style: italic;
-}
+
 
 
 
