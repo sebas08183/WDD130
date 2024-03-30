@@ -263,6 +263,7 @@ footer {
 form {
     max-width: 600px;
     margin: 0 auto;
+    padding: 10%;
 }
 label {
     display: block;
@@ -306,5 +307,28 @@ button[type="submit"] {
     
     background-image: linear-gradient(to right, #3d155e, #9c7ebe);
     box-shadow: 0px 5px 0px 0px #bbb0eb;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px; 
+}
+
+
+.company-info p {
+    text-align: center;
+    padding: 1%;
 }
 
