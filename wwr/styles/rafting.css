@@ -294,3 +294,17 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    background-image: linear-gradient(to right, #3d155e, #9c7ebe);
+    box-shadow: 0px 5px 0px 0px #bbb0eb;
+}
+
