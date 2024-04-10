@@ -1,5 +1,5 @@
-@import url(https://fonts.google.com/noto/specimen/Noto+Serif?query=noto);
-@import url(https://fonts.google.com/specimen/Bree+https://fonts.google.com/specimen/Bree+Serif?query=bree&noto.query=bree+serif?query=serif);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 body{
     font-family: 'Bree Serif', serif;
     max-width: 960px;
