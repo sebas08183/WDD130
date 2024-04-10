@@ -93,10 +93,6 @@ header {
 }
 
 
-    
-
-
-
 .table-summary {
     justify-content: center;
     padding-top: 5%;
@@ -129,7 +125,7 @@ header {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #9f73f0;
+    background-color: #320a7c;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
