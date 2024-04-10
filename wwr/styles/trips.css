@@ -1,0 +1,160 @@
+
+:root {
+    --primary-color: #66a557;
+    --secondary-color: #414073;
+    --accent1-color: #F5FFC6; 
+    --accent2-color: #8499B1;
+
+    --heading-font: 'Noto Serif', serif;
+    --paragraph-font: 'Bree Serif', serif;
+
+    --hero-background-color: #F5FFC6;
+    --hero-link-color: #414073;
+    --hero-hover-link-color: #414073;
+    --hero-hover-background-color: #8499B1;
+}
+
+
+body, h1, h3, h4, h5, h6, p, ul, li, table, th, td {
+    
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1200px; 
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:var(--hero-hover-background-color);
+    color: #fff;
+    padding: 20px;
+}
+
+.header, .grid {
+    display: grid;
+    grid-template-columns: minmax(auto, 120px ) 1fr;
+    align-items: center;  
+    justify-content: center;
+    padding: 0%;
+
+}
+
+.nav-item {
+    margin-left: 140px; 
+    display: inline-block; 
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000; 
+    border-radius: 5px; 
+}
+
+
+.trip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 5%;
+    justify-content: center;
+    
+}
+
+.trip {
+    flex: 1 1 300px; /* Flexbox shorthand: flex-grow flex-shrink flex-basis */
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.table-summary h2 {
+    text-align: 50%;
+    
+}
+
+
+.table-summary {
+    justify-content: center;
+    padding-top: 5%;
+    width: 1370px;
+}
+
+.table-summary table {
+    width: 80%; /* Adjust the width as needed */
+}
+
+
+
+.table-summary th, .table-summary td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-summary th {
+    background-color: #f2f2f2;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9f73f0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.social_links {
+    display: flex;
+}
+
+.social_links p, a {
+    margin-left: 10px; 
+    color: #fff;
+}
+
+footer p {
+    color: #fff ;
+
+}
